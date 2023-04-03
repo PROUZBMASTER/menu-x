@@ -1,0 +1,106 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: rgba(0, 255, 255, 0.385);
+}
+
+header {
+    padding-top: 30px;
+}
+
+nav {
+    background-color: gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.list-item {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.list-item:hover,
+.fa-solid:hover {
+    color: black;
+}
+
+.fa-solid {
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.modal-quvonchbek {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    background-color: grey;
+    padding: 60px;
+    margin-top: 50px;
+    border-radius: 6px;
+    transform: scale(0);
+    transition: .4s;
+}
+
+.fa-xmark {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 4px;
+    width: 50px;
+    text-align: center;
+}
+
+.inp-text {
+    outline: none;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    color: black;
+    padding: 10px 0 10px 35px;
+    margin-bottom: 30px;
+    border: none;
+    width: 100%;
+}
+
+.inp-btn1,
+.inp-btn2 {
+    background-color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #183153;
+    margin-bottom: 10px;
+    padding: 10px 35px;
+    border: none;
+    width: 100%;
+    transition: .02s;
+}
+
+.inp-btn1:hover,
+.inp-btn2:hover {
+    background-color:black ;
+    color:#fff ;
+    border: none;
+    transition: .02s;
+}
